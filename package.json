@@ -1,6 +1,8 @@
 {
   "name": "nicoka-report-v2",
   "version": "0.1.0",
+  "description": "Nicoka internship report",
+  "author": "Ugolin Ollé<ugolinolle.pro@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,12 +11,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.2",
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "framer-motion": "^6.3.11",
     "next": "12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
-    "eslint": "8.18.0",
-    "eslint-config-next": "12.1.6"
+    "eslint": "^8.18.0",
+    "eslint-config-next": "^12.1.6",
+    "prettier": "^2.7.1"
   }
 }
