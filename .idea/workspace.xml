@@ -2,67 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ed176b-6b59-4fd4-97ca-8d750108fc56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/avatar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/cursor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/layouts/article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/work.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/works/word.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/auto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/automatisation.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/anaelle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/antoine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/maelle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/nico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/nico2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/nico3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/peep-101.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/peep-102.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/peep-103.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/peep-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/peep-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/peep-17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/peep-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/peep-27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/peep-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/peep-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/peep-97.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/peep-98.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/peep-99.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/thomas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bust/xavier.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/docker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/experience_design.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/grafana-cloud-meta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/grafana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/nicoka-illustration.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nicoka-report-v2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/fonts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/grid-item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layouts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/layouts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/nicoka.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nicoka.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/works.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/works.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/works/word.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/works/word-export.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,18 +26,18 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -106,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657123693798</updated>
       <workItem from="1657123696296" duration="26000" />
+      <workItem from="1657972266831" duration="21000" />
     </task>
     <servers />
   </component>

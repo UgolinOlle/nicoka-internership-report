@@ -1,8 +1,8 @@
 import Head from "next/head";
 import { Box, Container } from "@chakra-ui/react";
 import React from 'react';
-
 import { GridItemStyle } from '../grid';
+
 import Footer from '../footer';
 import Navbar from "../navbar";
 
