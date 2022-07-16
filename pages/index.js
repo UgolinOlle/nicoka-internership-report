@@ -1,9 +1,7 @@
-import { Box, Image, Container, Heading, useColorModeValue, SimpleGrid } from "@chakra-ui/react";
-import Section from '../components/section'
-import Paragraph from '../components/paragraph'
-import { NGridItem } from '../components/grid-item';
+import { Box, Image, Container, Heading, useColorModeValue, Divider } from "@chakra-ui/react";
 
-import thumbWord from '../public/images/word.png'
+import Section from '../components/section';
+import Paragraph from '../components/paragraph';
 
 const Page = () => {
   return (
@@ -19,7 +17,11 @@ const Page = () => {
             </Heading>
             <p>Une application SaaS complète dédiée aux métiers du conseil et du service</p>
           </Box>
-          <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align='center'>
+          <Box
+            flexShrink={0}
+            mt={{ base: 4, md: 0 }}
+            ml={{ md: 6 }}
+            align='center'>
             <Image maxWidth="100px" display="inline-block" src="/images/nicoka.png" alt="Nicoka logo" />
           </Box>
         </Box>
@@ -35,28 +37,8 @@ const Page = () => {
           avec  plus de 10 modules complémentaires entièrement développés, maintenus et hébergés en France.
         </Paragraph>
       </Section>
-      <Section delay={0.7}>
-        <Heading as={'h3'} variant='section-title'>
-          Test grid
-        </Heading>
-        <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section>
-            <NGridItem id='word-export' title='Word Export' thumbnail={thumbWord}>
-              Export en format Word des différents types de documents
-            </NGridItem>
-          </Section>
-          <Section>
-            <NGridItem id='test' title='Test' thumbnail={thumbWord}>
-              test descriptioon
-            </NGridItem>
-          </Section>
-          <Section>
-            <NGridItem id='test' title='Test' thumbnail={thumbWord}>
-              test descriptioon
-            </NGridItem>
-          </Section>
-        </SimpleGrid>
-      </Section>
+
+      <Divider my={6} />
     </Container>
   )
 }

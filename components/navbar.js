@@ -15,6 +15,9 @@ import {
   useColorModeValue
 } from "@chakra-ui/react"
 import { HamburgerIcon } from "@chakra-ui/icons";
+import { IoLogoGithub } from 'react-icons/io5'
+
+// -- Files
 import ThemeToggleButton from './theme-toggle-button'
 
 const LinkItem = ({ href, path, children }) => {
@@ -22,9 +25,12 @@ const LinkItem = ({ href, path, children }) => {
   const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
   return (
     <NextLink href={href}>
-      <Link p={2}
-        bg={active ? 'glassTeal' : undefined}
-        color={active ? '#202023' : inactiveColor}>
+      <Link
+        p={2}
+        backgroundColor={active ? 'yellowTeal' : undefined}
+        color={active ? '#202023' : inactiveColor}
+        borderRadius='md'
+      >
         {children}
       </Link>
     </NextLink>
@@ -40,7 +46,7 @@ const Navbar = props => {
       as={"nav"}
       w={"100%"}
       bg={useColorModeValue('#ffffff40', '#20202380')}
-      style={{ backdropFilter: "blur(10px)" }}
+      css={{ backdropFilter: "blur(10px)" }}
       zIndex={1}
       {...props}
     >
@@ -71,6 +77,18 @@ const Navbar = props => {
           <LinkItem href={'/experience'} path={path}>
             Expériences
           </LinkItem>
+          <LinkItem
+            target="_blank"
+            href="https://github.com/craftzdog/craftzdog-homepage"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <IoLogoGithub />
+            Source
+          </LinkItem>
         </Stack>
 
         <Box flex={1} align='right'>
@@ -92,6 +110,13 @@ const Navbar = props => {
                 <NextLink href={'/experience'} passHref>
                   <MenuItem as={Link}>Expériences</MenuItem>
                 </NextLink>
+                <MenuItem
+                  as={Link}
+                  href="https://github.com/craftzdog/craftzdog-homepage"
+                  target='_blank'
+                >
+                  Code source
+                </MenuItem>
               </MenuList>
             </Menu>
           </Box>
