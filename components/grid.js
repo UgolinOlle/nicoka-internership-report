@@ -44,10 +44,10 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
 )
 
 export const IconGridItem = ({ link, title, icon, hoverColor }) => (
-  <Box w='100%' textAlign='center'>
+  <Box w='100%' textAlign='center' _hover={{ color: hoverColor }} transition='0.5s ease'>
     <NextLink href={link} passHref scroll={false} >
       <LinkBox cursor='pointer' mt={4} >
-        <FontAwesomeIcon icon={icon} color={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} fontSize={40} _hover={{ color: hoverColor }} />
+        <FontAwesomeIcon icon={icon} color={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} fontSize={40} />
         <LinkOverlay href={link}>
           <Text mt={2} fontSize={20}>
             {title}

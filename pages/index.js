@@ -46,28 +46,60 @@ const Page = () => {
           </Heading>
           <SimpleGrid columns={[1, 1, 2]} gap={6}>
             <Section>
-              <IconGridItem title='SIRH - RH' icon={faUsers} link='https://sirh.nicoka.com/' hoverColor='#31b7ca' />
+              <IconGridItem
+                  title='SIRH - RH'
+                  icon={faUsers}
+                  link='https://sirh.nicoka.com/'
+                  hoverColor='#31b7ca' />
             </Section>
             <Section>
-              <IconGridItem title='ATS - Recrutement' icon={faCrosshairs} link='https://recrutement.nicoka.com/' />
+              <IconGridItem
+                  title='ATS - Recrutement'
+                  icon={faCrosshairs}
+                  link='https://recrutement.nicoka.com/'
+                  hoverColor='#37bde5' />
             </Section>
             <Section>
-              <IconGridItem title='DESK - Service Client' icon={faBug} link='https://www.nicoka.com/#HomePage Suite Nicoka Nicoka_DESK' />
+              <IconGridItem
+                  title='DESK - Service Client'
+                  icon={faBug}
+                  link='https://www.nicoka.com/#HomePage Suite Nicoka Nicoka_DESK'
+                  hoverColor='#337bb7' />
             </Section>
             <Section>
-              <IconGridItem title='CRM - Relation Client' icon={faBullseye} link='https://crm.nicoka.com/' />
+              <IconGridItem
+                  title='CRM - Relation Client'
+                  icon={faBullseye}
+                  link='https://crm.nicoka.com/'
+                  hoverColor='#8d83ba' />
             </Section>
             <Section>
-              <IconGridItem title='Projet' icon={faRocket} link='https://www.nicoka.com/#HomePage Suite Nicoka Nicoka_Projets' />
+              <IconGridItem
+                  title='Projet'
+                  icon={faRocket}
+                  link='https://www.nicoka.com/#HomePage Suite Nicoka Nicoka_Projets'
+                  hoverColor='#337bb7' />
             </Section>
             <Section>
-              <IconGridItem title='Ventes' icon={faDollar} link='https://www.nicoka.com/gestion-des-devis' />
+              <IconGridItem
+                  title='Ventes'
+                  icon={faDollar}
+                  link='https://www.nicoka.com/gestion-des-devis'
+                  hoverColor='#a8d86f' />
             </Section>
             <Section>
-              <IconGridItem title='Achats' icon={faShoppingCart} link='https://www.nicoka.com/gerez-vos-commandes-d-achat' />
+              <IconGridItem
+                  title='Achats'
+                  icon={faShoppingCart}
+                  link='https://www.nicoka.com/gerez-vos-commandes-d-achat'
+                  hoverColor='#fbb323' />
             </Section>
             <Section>
-              <IconGridItem title='Démat' icon={faBarcode} link='https://www.nicoka.com/solutions/gerez-vos-achats/dematerialisez-vos-factures-d-achat/' />
+              <IconGridItem
+                  title='Démat'
+                  icon={faBarcode}
+                  link='https://www.nicoka.com/solutions/gerez-vos-achats/dematerialisez-vos-factures-d-achat/'
+                  hoverColor='#fccd38' />
             </Section>
           </SimpleGrid>
         </Section>
